@@ -230,7 +230,7 @@ public class Test {
             System.out.println(e.getMessage());
         }
         catch (Exception ignored){
-            System.out.println(ignored.toString());
+           // System.out.println(ignored.toString());
         }
         finally {
             couponExpirationDailyJob.stop();
